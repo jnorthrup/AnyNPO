@@ -1,0 +1,11 @@
+<module rename-to="app">
+
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.web.bindery.autobean.AutoBean"/>
+    <inherits name="rxf.RelaxFactoryStubs"/>
+
+    <entry-point class='anynpo.app.client.App'/>
+    <source path="client"/>
+    <source path="shared"/>
+    <collapse-all-properties/>
+</module>

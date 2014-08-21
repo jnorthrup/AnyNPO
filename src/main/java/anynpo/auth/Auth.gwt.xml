@@ -1,0 +1,10 @@
+<module rename-to="auth">
+
+    <entry-point class='anynpo.auth.client.Auth'/>
+    <collapse-all-properties/>
+    <inherits name="com.google.gwt.user.DOM"/>
+    <inherits name="com.google.common.base.Base"/>
+    <inherits name="com.google.common.net.Net"/>
+    <inherits name="com.google.gwt.http.HTTP"/>
+    <inherits name="com.google.gwt.event.dom.DomEvent"/>
+</module>
